@@ -1,0 +1,35 @@
+page-home {
+    #titulo{
+        font-family: 'Yu Gothic UI';
+        background-color: rgba(233, 117, 0, 0.60);
+    }
+    .toolbar-title-ios {
+        text-align: center;
+        font-size: 23px;
+        font-weight: 600;
+        color: white;
+        pointer-events: auto;
+      }
+    #add {
+        background-color: rgb(233, 116, 0);
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        position: absolute;
+        left: 300px;
+        bottom: 282px;
+    }
+    .item.item-block.item-ios{
+        background-color: rgb(240, 240, 240);
+        font-family: 'Yu Gothic UI';
+        font-size: 20px;
+    }
+    .monthview-selected[_ngcontent-c1] {
+        background-color: rgb(233, 116, 0);
+        color: white;
+    }
+    .table-bordered[_ngcontent-c1] > thead[_ngcontent-c1] > tr[_ngcontent-c1] > th[_ngcontent-c1], .table-bordered[_ngcontent-c1] > tbody[_ngcontent-c1] > tr[_ngcontent-c1] > th[_ngcontent-c1], .table-bordered[_ngcontent-c1] > tfoot[_ngcontent-c1] > tr[_ngcontent-c1] > th[_ngcontent-c1], .table-bordered[_ngcontent-c1] > thead[_ngcontent-c1] > tr[_ngcontent-c1] > td[_ngcontent-c1], .table-bordered[_ngcontent-c1] > tbody[_ngcontent-c1] > tr[_ngcontent-c1] > td[_ngcontent-c1], .table-bordered[_ngcontent-c1] > tfoot[_ngcontent-c1] > tr[_ngcontent-c1] > td[_ngcontent-c1] {
+        border: 1px solid #ddd;
+        border-style: hidden;
+    }
+}
